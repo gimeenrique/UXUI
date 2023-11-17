@@ -1,0 +1,195 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0;
+    background-image: url(Cover.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.buttons {
+    min-width: 400px;
+    align-items: center;
+    background-color: rgb(106, 228, 187);
+    height: 40px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+  }
+  .buttons a {
+
+    text-decoration: none;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #ffff;
+    color: rgb(106, 228, 187);
+    border-radius: 50%;
+
+    transition: all .4s ease-in-out;
+  } 
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    } 
+.logo img{
+    height: 70px;
+}
+a {
+    text-decoration: underline solid;
+    font-family: 'Roboto Mono', sans-serif;
+}  
+nav a{
+    font-weight: 100px;
+    padding-right: 30px;
+    color: black;
+    font-family: 'Roboto mono', monospace;
+}
+.contenedor{
+    width: 1200px;
+    height: 600px;
+    background-color:blueviolet;
+    margin: 0px auto;
+    
+}
+.caja1{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(244, 242, 247);
+    position: relative;
+}
+section img{
+   width: 300px;
+   height: 170px;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}
+.caja2{
+    width: 800px;
+    height: 200px;
+    background-color:rgb(244, 242, 247) ;  
+    float: left;
+}
+
+.caja3{
+    width: 1200px;
+    height: 66.6px;
+    background-color: #ffff;
+    float: left;
+    text-align: center; 
+    text-decoration: underline solid;
+}
+
+.caja4{
+    width: 400px;
+    height: 133.3px;
+    background-color: #ffff;
+    float: left;
+    text-align: center;
+}
+.caja4 h2{
+    
+    font-size: medium;
+}
+.caja4 p{
+
+  font-size: smaller;
+}
+.caja5{
+    width: 400px;
+    height: 133.3px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+.caja5 h2{
+    
+    font-size: medium;
+}
+.caja5 p{
+  font-size: smaller;
+}
+.caja6{
+    width: 400px;
+    height: 133.3px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    margin-top: 0%;
+}
+.caja6 h2{
+    
+    font-size: medium;
+}
+.caja6 p{
+  font-size: smaller;  
+}
+.caja7{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(244, 242, 247);  
+    float: left;
+    align-items: center;
+    position: relative;
+    
+} 
+      
+.caja7 section img{
+    width: 70px;
+   height: 70px;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}
+.caja7 nav a{
+    text-align: center;
+    font-weight: 100px;
+    padding-right: 5px;
+    padding-top: 40px;
+    color: black;
+    font-family: 'Roboto mono', monospace;
+    position: absolute;
+   inset: 0;
+   margin: auto;
+}
+.caja8{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(244, 242, 247);  
+    float: left;
+    position: relative;
+} 
+.caja8 section img{
+    width: 70px;
+   height: 70px;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}
+.caja8 nav a{
+    text-align: center;
+    font-weight: 100px;
+    padding-right: 5px;
+    padding-top: 40px;
+    color: black;
+    font-family: 'Roboto mono', monospace;
+    position: absolute;
+   inset: 0;
+   margin: auto;
+}
+footer{
+ background-color: rgb(47, 65, 59);
+ padding: 1em 0;
+ text-align: center;
+ margin-top: auto;
+}
